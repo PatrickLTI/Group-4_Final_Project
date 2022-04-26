@@ -26,21 +26,21 @@
   letter-spacing: 2px;
 }
 
-.bgr h1 a {
+.main-header h1 a {
   text-decoration: none;
 }
 
-h1 a:visited {
+.main-header h1 a:visited {
   color: #1098ad;
 }
 
-.bgr ul {
+.main-header ul {
   list-style-type: none;
   width: 100%;
   display: flex;
 }
 
-li a {
+.main-header li a {
   /* display: block; */
   padding: 12px 0;
   margin: 0 30px;
@@ -152,6 +152,13 @@ div.SkillBlock {
 .sqlprogress {
   width: 80%;
 }
+.photoshopprogress {
+  width: 40%;
+}
+.javascriptprogress {
+  width: 75%;
+}
+
 .SkillBlock ol li {
   float: left;
   width: 47%;
