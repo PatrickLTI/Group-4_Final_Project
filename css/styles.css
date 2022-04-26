@@ -181,6 +181,18 @@ div.SkillBlock h3{
 .javascriptprogress {
   width: 75%;
 }
+.MicrosoftOfficeprogress {
+  width: 90%;
+}
+.phpprogress {
+  width: 60%;
+}
+.linuxprogress {
+  width: 75%;
+}
+.cplusprogress {
+  width: 60%;
+}
 
 .SkillBlock ol li {
   float: left;
