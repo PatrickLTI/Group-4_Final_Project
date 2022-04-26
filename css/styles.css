@@ -77,3 +77,12 @@ div.SkillBlock{
 	display: block;
 	clear: both;
 }
+
+/* styles for contact */
+div.mainContact{
+	width:100%;
+}
+table.tableContact{
+	width:60%;
+	margin:20px auto;
+}
