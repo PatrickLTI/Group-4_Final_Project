@@ -1,5 +1,4 @@
 .bgr {
-  /* background-color: #f1f1f1; */
   background-color: #d1e0e9;
 }
 
@@ -20,7 +19,7 @@
   padding: 12px 0;
   margin: 0 30px;
   color: #000;
-  font-size: 25px;
+  font-size: 16px;
   font-family: "Alegreya", serif;
   /* font-family: "Roboto", sans-serif; */
   letter-spacing: 2px;
@@ -46,10 +45,10 @@
   margin: 0 30px;
   text-decoration: none;
   color: #000;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Alegreya", serif;
   /* font-family: "Roboto", sans-serif; */
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 a:hover {
@@ -152,13 +151,6 @@ div.SkillBlock {
 .sqlprogress {
   width: 80%;
 }
-.photoshopprogress {
-  width: 40%;
-}
-.javascriptprogress {
-  width: 75%;
-}
-
 .SkillBlock ol li {
   float: left;
   width: 47%;
