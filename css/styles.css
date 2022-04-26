@@ -1,88 +1,179 @@
+.bgr {
+  /* background-color: #f1f1f1; */
+  background-color: #d1e0e9;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 220px;
+}
+
+.h-text {
+  padding: 12px 0;
+  margin: 0 30px;
+  color: #000;
+  font-size: 25px;
+  font-family: "Alegreya", serif;
+  /* font-family: "Roboto", sans-serif; */
+  letter-spacing: 2px;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: #1098ad;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+}
+
+li a {
+  /* display: block; */
+  padding: 12px 0;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+  /* font-family: "Roboto", sans-serif; */
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color: #1098ad;
+  font-weight: bolder;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 400px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.cool {
+  border-radius: 25%;
+  width: 560px;
+  height: auto;
+  padding-right: 300px;
+  padding-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20%;
+  padding-top: 10px;
+  /* padding-left: 350px;
+  margin-bottom: 50px; */
+}
+
+/* Xiao's codes*/
+
 /* styles for working experience
  */
-table.workExperience{
-	border-collapse:collapse;
-	margin-left:20%;
-	margin-right:20%
+table.workExperience {
+  border-collapse: collapse;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-td.year, td.tdLogo{
-	border-right:1px solid gray;
-	padding-right:20px;
-	text-align:right;
+td.year,
+td.tdLogo {
+  border-right: 1px solid gray;
+  padding-right: 20px;
+  text-align: right;
 }
-td.tdLogo{
-	vertical-align:top;
+td.tdLogo {
+  vertical-align: top;
 }
-h2.companyName{
-	padding-top:20px;
+h2.companyName {
+  padding-top: 20px;
 }
-td.eachExperience{
-	padding-left:20px;
+td.eachExperience {
+  padding-left: 20px;
 }
-ul.experienceList{
-	padding-left:15px;
-	padding-bottom:20px;
+ul.experienceList {
+  padding-left: 15px;
+  padding-bottom: 20px;
 }
-img.companyLogo{
-	width:80px;
+img.companyLogo {
+  width: 80px;
 }
-
 
 /* styles for skills */
-div.SkillBlock{
-	margin-left:20%;
-	margin-right:20%;
+div.SkillBlock {
+  margin-left: 20%;
+  margin-right: 20%;
 }
-.progressBar{
-		width:70%;
-		height:20px;
-		border-radius: 5px;
-		background-color: #eee;	
-		box-shadow:0 2px 5px rgba(0,0,0,0.25) inset;
-	}
-.progress{
-	height: 100%;
-	border-radius: 5px 0 0 5px;
-	background-image:linear-gradient(to right, lightblue,blue);
+.progressBar {
+  width: 70%;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
-.htmlProgress{
-	width:50%;
+.progress {
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  background-image: linear-gradient(to right, lightblue, blue);
 }
-.cssprogress{
-	width:60%;
+.htmlProgress {
+  width: 50%;
 }
-.javaprogress{
-	width:90%;
+.cssprogress {
+  width: 60%;
 }
-.pythonprogress{
-	width:50%
+.javaprogress {
+  width: 90%;
 }
-.csharpprogress{
-	width:70%
+.pythonprogress {
+  width: 50%;
 }
-.sqlprogress{
-	width:80%
+.csharpprogress {
+  width: 70%;
+}
+.sqlprogress {
+  width: 80%;
 }
 .SkillBlock ol li {
-	float: left;
-	width: 47%;
-	list-style-type:none;
+  float: left;
+  width: 47%;
+  list-style-type: none;
 }
 
 .SkillBlock ol li:nth-child(even) {
-	float: right;
+  float: right;
 }
- .clearfix:after {
-	content: '';
-	display: block;
-	clear: both;
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* styles for contact */
-div.mainContact{
-	width:100%;
+div.mainContact {
+  width: 100%;
 }
-table.tableContact{
-	width:60%;
-	margin:20px auto;
+table.tableContact {
+  width: 60%;
+  margin: 20px auto;
 }
+
+/* Xiao's codes */
