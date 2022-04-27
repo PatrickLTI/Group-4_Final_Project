@@ -15,13 +15,16 @@
   padding-right: 220px;
 }
 
+.h1-main {
+  margin: 20px;
+}
+
 .h-text {
   padding: 12px 0;
   margin: 0 30px;
   color: #000;
   font-size: 16px;
   font-family: "Alegreya", serif;
-  /* font-family: "Roboto", sans-serif; */
   letter-spacing: 2px;
 }
 
@@ -40,14 +43,12 @@
 }
 
 .main-header li a {
-  /* display: block; */
   padding: 12px 0;
   margin: 0 25px;
   text-decoration: none;
   color: #000;
   font-size: 16px;
   font-family: "Alegreya", serif;
-  /* font-family: "Roboto", sans-serif; */
   letter-spacing: 1px;
 }
 
@@ -80,8 +81,134 @@ a:hover {
   gap: 10px;
   padding-right: 20%;
   padding-top: 10px;
-  /* padding-left: 350px;
-  margin-bottom: 50px; */
+}
+
+.container-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.container-aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.aboutme-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* border: 1px solid #000; */
+}
+
+.work-icon {
+  border-radius: 10%;
+  width: 240px;
+  height: auto;
+}
+
+.work-icon:hover {
+  transform: scale(1.1);
+}
+
+.project-text {
+  font-size: 20px;
+  font-family: "Alegreya", serif;
+}
+
+.school-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.school-h2 {
+  margin: 1px;
+}
+
+.school-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #000; */
+  gap: 100px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.school-logo {
+  border-radius: 10%;
+  width: 240px;
+  height: 70px;
+  background-color: rgb(253, 253, 253);
+}
+
+.school-logo:hover {
+  transform: scale(1.1);
+}
+
+.school-h4 {
+  margin: 1px;
+  font-size: 25px;
+  font-family: "Alegreya", serif;
+  color: #1098ad;
+}
+
+.school-h5 {
+  margin: 2px;
+  font-size: 16px;
+  font-family: "Alegreya", serif;
+}
+
+.school-h6 {
+  margin: 2px;
+  font-size: 15px;
+  font-family: "Alegreya", serif;
+  color: #545252;
+}
+
+.school-p {
+  border-radius: 2%;
+  margin: 10px;
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  /* color: #444; */
+  /* background-color: rgba(156, 195, 195, 0.195); */
+  background-color: #1098ad23;
+}
+
+.school-ol {
+  font-size: 18px;
+  font-family: "Alegreya", serif;
+  color: #444;
+}
+
+.p-size {
+  width: 600px;
+  height: auto;
+}
+
+.bot-box {
+  margin-bottom: 10px;
 }
 
 /* Xiao's codes*/
@@ -175,6 +302,8 @@ div.SkillBlock h3{
 .sqlprogress {
   width: 80%;
 }
+
+/* <<<<<<< xiao's-branch
 .photoshopprogress {
   width: 40%;
 }
@@ -193,6 +322,8 @@ div.SkillBlock h3{
 .cplusprogress {
   width: 60%;
 }
+
+*/
 
 .SkillBlock ol li {
   float: left;
