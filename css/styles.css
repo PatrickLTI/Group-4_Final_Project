@@ -275,12 +275,30 @@ body.mainSkill{
 	background-color: #d1e0e9;
 }
 div.SkillBlock {
-  background-image:linear-gradient(to right, #88a7b9,#d1e0e9,#88a7b9);
-  padding:20px 20%;
+  /* background-image:linear-gradient(to right, #88a7b9,#d1e0e9,#88a7b9); */
+  padding:20px 5%;
 }
 div.SkillBlock h3{
   font-family: "Alegreya", serif;
   margin-bottom: 0;
+}
+td.comments{
+  width:20%;
+}
+.comments div{
+  border: 2px solid #0A5375;
+  border-radius: 15px;
+  box-shadow: inset;
+  padding: 10px;
+  height: 350px;
+}
+.comments p{
+  font-family: "Alegreya", serif;
+  font-size: medium;
+}
+.comments p::first-letter{
+  font-size: 150%;
+  color: #0A5375;
 }
 .progressBar {
   width: 80%;
@@ -372,6 +390,10 @@ p.contactName{
 }
 .contactinfo p{
   padding-bottom: 3px;
+}
+.imgIcon{
+  width: 20px;
+  border-radius: 10px;
 }
 
 .contacttable{
