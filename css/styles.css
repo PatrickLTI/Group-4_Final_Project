@@ -44,7 +44,7 @@
 
 .main-header li a {
   padding: 12px 0;
-  margin: 0 30px;
+  margin: 0 25px;
   text-decoration: none;
   color: #000;
   font-size: 16px;
@@ -215,16 +215,32 @@ a:hover {
 
 /* styles for working experience
  */
+ body.mainExperience{
+	background-color: #d1e0e9;
+}
+
 table.workExperience {
   border-collapse: collapse;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin:20px 20%;
 }
-td.year,
-td.tdLogo {
-  border-right: 1px solid gray;
-  padding-right: 20px;
+.divExperience h1,.SkillBlock h1,.divContact h1{
+	font-family: 'Jura', sans-serif;
+	font-size:200%;
+	letter-spacing:2px;
+	text-align:center;
+}
+td.year,td.tdLogo {
+  border-right: 2px solid gray;
+  padding-right: 30px;
   text-align: right;
+  width:25%;
+}
+td.year, h2.companyName{
+	font-family: 'Comfortaa', cursive;
+  color: #0A5375;
+}
+td.eachExperience{
+  font-family: "Alegreya", serif;
 }
 td.tdLogo {
   vertical-align: top;
@@ -233,7 +249,7 @@ h2.companyName {
   padding-top: 20px;
 }
 td.eachExperience {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 ul.experienceList {
   padding-left: 15px;
@@ -244,13 +260,21 @@ img.companyLogo {
 }
 
 /* styles for skills */
+body.mainSkill{
+	background-color: #d1e0e9;
+}
 div.SkillBlock {
   margin-left: 20%;
   margin-right: 20%;
 }
+div.SkillBlock h3{
+  font-family: "Alegreya", serif;
+  color: #0A5375;
+  margin-bottom: 0;
+}
 .progressBar {
   width: 70%;
-  height: 20px;
+  height: 30px;
   border-radius: 5px;
   background-color: #eee;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
@@ -258,7 +282,7 @@ div.SkillBlock {
 .progress {
   height: 100%;
   border-radius: 5px 0 0 5px;
-  background-image: linear-gradient(to right, lightblue, blue);
+  background-image: linear-gradient(to right, #1098ad, #0A5375);
 }
 .htmlProgress {
   width: 50%;
@@ -278,6 +302,29 @@ div.SkillBlock {
 .sqlprogress {
   width: 80%;
 }
+
+/* <<<<<<< xiao's-branch
+.photoshopprogress {
+  width: 40%;
+}
+.javascriptprogress {
+  width: 75%;
+}
+.MicrosoftOfficeprogress {
+  width: 90%;
+}
+.phpprogress {
+  width: 60%;
+}
+.linuxprogress {
+  width: 75%;
+}
+.cplusprogress {
+  width: 60%;
+}
+
+*/
+
 .SkillBlock ol li {
   float: left;
   width: 47%;
@@ -294,12 +341,87 @@ div.SkillBlock {
 }
 
 /* styles for contact */
-div.mainContact {
+body.mainContact{
+	background-color: #d1e0e9;
+}
+div.divContact {
   width: 100%;
 }
 table.tableContact {
-  width: 60%;
-  margin: 20px auto;
+  margin: 20px 15% 20px 25%;
+}
+td.contactinfo{
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  padding-right: 150px;
+}
+p.contactName{
+  font-size: 150%;
+  font-weight: bold;
+  font-family: 'Jura', sans-serif;
+}
+.contactinfo p{
+  padding-bottom: 3px;
 }
 
+.contacttable{
+  width: 100%;
+  margin: 5px;
+}
+input.forminput{
+  border: none;
+  border-bottom: 2px solid #0A5375;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+input.forminput:focus {
+  border: 2px solid #0A5375;
+}
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border:none;
+  border-bottom: 2px solid #0A5375;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+td.lable{
+  text-align: right;
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+  padding-right: 5px;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.contacticom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20%;
+  padding-top: 10px;
+}
+.submit{
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(50, 48, 48);
+  background-color: #1098ad;
+
+  font-family: 'Comfortaa', cursive;
+  font-size: 120%;
+
+}
+.contacticom a{
+  padding:5px;
+}
 /* Xiao's codes */

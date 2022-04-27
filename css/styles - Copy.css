@@ -1,0 +1,213 @@
+/* fonts */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Jura:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+.bgr {
+  background-color: #d1e0e9;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 220px;
+}
+
+.h-text {
+  padding: 12px 0;
+  margin: 0 30px;
+  color: #000;
+  font-size: 16px;
+  font-family: "Alegreya", serif;
+  /* font-family: "Roboto", sans-serif; */
+  letter-spacing: 2px;
+}
+
+.main-header h1 a {
+  text-decoration: none;
+}
+
+.main-header h1 a:visited {
+  color: #1098ad;
+}
+
+.main-header ul {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+}
+
+.main-header li a {
+  /* display: block; */
+  padding: 12px 0;
+  margin: 0 30px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-family: "Alegreya", serif;
+  /* font-family: "Roboto", sans-serif; */
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #1098ad;
+  font-weight: bolder;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 400px;
+  font-size: 30px;
+  font-family: "Alegreya", serif;
+}
+
+.cool {
+  border-radius: 25%;
+  width: 560px;
+  height: auto;
+  padding-right: 300px;
+  padding-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20%;
+  padding-top: 10px;
+  /* padding-left: 350px;
+  margin-bottom: 50px; */
+}
+
+/* Xiao's codes*/
+
+
+/* styles for working experience
+ */
+body.mainExperience{
+	background-color: #d1e0e9;
+}
+.mainExperience .main-header li a {
+  padding: 12px 0;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-family: "Alegreya", serif;
+  /* font-family: "Roboto", sans-serif; */
+  letter-spacing: 1px;
+}
+
+table.workExperience {
+  border-collapse: collapse;
+  margin:20px 20%;
+}
+.mainExperience h1{
+	font-family: 'Jura', sans-serif;
+	font-size:200%;
+	letter-spacing:2px;
+	text-align:center;
+}
+td.year,td.tdLogo {
+  border-right: 1px solid gray;
+  padding-right: 20px;
+  text-align: right;
+  width:25%;
+}
+td.year, h2.companyName, td.eachExperience{
+	font-family: 'Comfortaa', cursive;
+}
+td.tdLogo {
+  vertical-align: top;
+}
+h2.companyName {
+  padding-top: 20px;
+}
+td.eachExperience {
+  padding-left: 20px;
+}
+ul.experienceList {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+img.companyLogo {
+  width: 80px;
+}
+
+/* styles for skills */
+div.SkillBlock {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.progressBar {
+  width: 70%;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+.progress {
+  height: 100%;
+  border-radius: 5px 0 0 5px;
+  background-image: linear-gradient(to right, lightblue, blue);
+}
+.htmlProgress {
+  width: 50%;
+}
+.cssprogress {
+  width: 60%;
+}
+.javaprogress {
+  width: 90%;
+}
+.pythonprogress {
+  width: 50%;
+}
+.csharpprogress {
+  width: 70%;
+}
+.sqlprogress {
+  width: 80%;
+}
+.photoshopprogress {
+  width: 40%;
+}
+.javascriptprogress {
+  width: 75%;
+}
+
+.SkillBlock ol li {
+  float: left;
+  width: 47%;
+  list-style-type: none;
+}
+
+.SkillBlock ol li:nth-child(even) {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* styles for contact */
+div.mainContact {
+  width: 100%;
+}
+table.tableContact {
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* Xiao's codes */

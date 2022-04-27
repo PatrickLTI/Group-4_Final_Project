@@ -2,48 +2,98 @@
 	<head>
 		<link rel="stylesheet" href="../css/styles.css">
 	</head>
-	<body>
-		<div class="mainContact">
+	<body class="mainContact">
+		<!-- memu -->
+		<header class="main-header">
+			<h1 class="h-text"><a href="../index.html">AIDEN</a></h1>
+
+			<nav>
+			  <ul>
+				<li>
+				  <a href="aboutme.html">ABOUT ME</a>
+				</li>
+				<li>
+				  <a href="Education.html">EDUCATION</a>
+				</li>
+				<li>
+				  <a href="employ.html">WORK EXPERIENCE</a>
+				</li>
+				<li>
+				  <a href="skills.html">SKILLS</a>
+				</li>
+				<li>
+				  <a href="contact.html">CONTACT</a>
+				</li>
+			  </ul>
+			</nav>
+			<!-- Navigation bar ends here -->
+		  </header>
+
+		<div class="divContact">
 			<table class="tableContact">
 				<tr>
 					<td colspan="2"><h1>Contact Me</h1><td>
 				</tr>
 				<tr>
-					<td>
-						<p class="contactName">Name</P>
+					<td class="contactinfo">
+						<p class="contactName">Aiden</P>
 						<p>Full stack developer</P>
-						<p>Tel</P>
-						<p>514-123-1234</P>
-						<p>Email<P>
-						<p>John@smith.net</P>
+						<p>Tel<br>514-123-1234</P>
+						<p>Email<br>John@smith.net</P>
 					</td>
-					<td>
+					<td rowspan="2">
 						<form class="contactForm">
-							<table>
+							<table class="contacttable">
 								<tr>
-									<td>Full Name:</td>
+									<td class="lable">Full Name:</td>
 									<td><input class="forminput" type="text" name="name" placeholder="Enter full name"></td>
 								</tr>
 								<tr>
-									<td>Email:</td>
+									<td class="lable">Email:</td>
 									<td><input class="forminput" type="text" name="email" placeholder="Enter email addess"></td>
 								</tr>
 								<tr>
-									<td>Phone:</td>
+									<td class="lable">Phone:</td>
 									<td><input class="forminput" type="text" name="phone" placeholder="Enter phone number"></td>
 								</tr>
 								<tr>
-									<td>Message:</td>
+									<td class="lable">Message:</td>
 									<td><textarea class="forminput" name="message" placeholder="Your Comment..."></textarea></td>
 								</tr>
 								<tr>
-									<td colspan="2">Submit</td>
+									<td colspan="2"><input class="submit" type="submit" value="Submit"></td>
 								</tr>
 							</table>
 						</form>
 					</td>
 				</tr>
+				<tr>
+					<td>
+						<div class="contacticom">
+							<a href="#">
+							<img
+								src="../Images/4745729_linkedin_network_people_professional_profile_icon.png"
+								alt="Linkedin"
+							/>
+							</a>
+							<a href="#">
+							<img
+								src="../Images/4745725_code_development_github_open-source_programming_icon.png"
+								alt="Github"
+							/>
+							<a href="#">
+								<img
+								src="../Images/4745722_media_social_facebook_network_icon.png"
+								alt="Facebook"
+								/>
+							</a>
+							</a>
+						</div>
+					</td>
+				</tr>
 			</table>
 		</div>
+
+		
 	</body>
 </html>
