@@ -224,10 +224,21 @@ table.workExperience {
   margin:20px 20%;
 }
 .divExperience h1,.SkillBlock h1,.divContact h1{
-	font-family: 'Jura', sans-serif;
-	font-size:200%;
+	font-family: "Alegreya", serif;
+	font-size:250%;
+	font-weight:bold;
 	letter-spacing:2px;
 	text-align:center;
+}
+/* .workExperience tr:nth-child(3),.workExperience tr:nth-child(2){
+	background-color:#ebe5ea;
+}
+
+.workExperience tr:nth-child(8),.workExperience tr:nth-child(9){
+	background-color:#ebe5ea;
+} */
+.workExperience tr:nth-child(3),.workExperience tr:nth-child(6){
+  border-bottom: 2px solid #f8f8f8;
 }
 td.year,td.tdLogo {
   border-right: 2px solid gray;
@@ -236,8 +247,8 @@ td.year,td.tdLogo {
   width:25%;
 }
 td.year, h2.companyName{
-	font-family: 'Comfortaa', cursive;
-  color: #0A5375;
+	font-family: "Alegreya", serif;
+  color: #1098ad;
 }
 td.eachExperience{
   font-family: "Alegreya", serif;
@@ -264,25 +275,25 @@ body.mainSkill{
 	background-color: #d1e0e9;
 }
 div.SkillBlock {
-  margin-left: 20%;
-  margin-right: 20%;
+  background-image:linear-gradient(to right, #88a7b9,#d1e0e9,#88a7b9);
+  padding:20px 20%;
 }
 div.SkillBlock h3{
   font-family: "Alegreya", serif;
-  color: #0A5375;
   margin-bottom: 0;
 }
 .progressBar {
-  width: 70%;
-  height: 30px;
+  width: 80%;
+  height: 20px;
   border-radius: 5px;
   background-color: #eee;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  margin-bottom: 10;
 }
 .progress {
   height: 100%;
   border-radius: 5px 0 0 5px;
-  background-image: linear-gradient(to right, #1098ad, #0A5375);
+  background-image: linear-gradient(to right, #1098ad, #88a7b9);
 }
 .htmlProgress {
   width: 50%;
@@ -296,19 +307,17 @@ div.SkillBlock h3{
 .pythonprogress {
   width: 50%;
 }
+.javascriptprogress {
+  width: 80%;
+}
 .csharpprogress {
   width: 70%;
 }
 .sqlprogress {
   width: 80%;
 }
-
-/* <<<<<<< xiao's-branch
 .photoshopprogress {
   width: 40%;
-}
-.javascriptprogress {
-  width: 75%;
 }
 .MicrosoftOfficeprogress {
   width: 90%;
@@ -320,10 +329,8 @@ div.SkillBlock h3{
   width: 75%;
 }
 .cplusprogress {
-  width: 60%;
+  width: 65%;
 }
-
-*/
 
 .SkillBlock ol li {
   float: left;
@@ -346,12 +353,15 @@ body.mainContact{
 }
 div.divContact {
   width: 100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-image:linear-gradient(to right, #88a7b9,#d1e0e9,#88a7b9);
 }
 table.tableContact {
-  margin: 20px 15% 20px 25%;
+  margin: 20px 10% 20px 25%;
 }
 td.contactinfo{
-  font-family: 'Comfortaa', cursive;
+  font-family: "Alegreya", serif;
   font-size: 120%;
   padding-right: 150px;
 }
@@ -373,14 +383,14 @@ input.forminput{
   border-bottom: 2px solid #0A5375;
   border-radius: 4px;
   height: 40px;
-  width: 100%;
+  width: 200px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 input.forminput:focus {
   border: 2px solid #0A5375;
 }
 textarea{
-  width: 100%;
+  width: 300px;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -390,12 +400,11 @@ textarea{
   background-color: #f8f8f8;
   resize: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-
 }
 
 td.lable{
   text-align: right;
-  font-family: 'Comfortaa', cursive;
+  font-family: "Alegreya", serif;
   font-size: 120%;
   padding-right: 5px;
   padding-top:20px;
@@ -417,8 +426,10 @@ td.lable{
   box-shadow: 5px 5px 5px rgb(50, 48, 48);
   background-color: #1098ad;
 
-  font-family: 'Comfortaa', cursive;
+  font-family: "Alegreya", serif;
   font-size: 120%;
+  font-weight: bold;
+  margin-left: 10SK0px;
 
 }
 .contacticom a{
